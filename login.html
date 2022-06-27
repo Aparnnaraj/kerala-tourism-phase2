@@ -75,30 +75,37 @@
   
   <!-- form starts here -->
   <!-- <div class="shadow p-3 mb-5 bg-white rounded"> -->
-    <form action="#" class="login">
-      <h2> User Login </h2>
+    <div id="loginform">
+
+      <centre>
+        <form action="./destination.html" class="login">
+          <h2>User Login</h2>
       <br>
       <div class="login-cont">
           <label> Email ID </label>
           <br>
-          <input type="text" placeholder="Type your email">
+          <input type="text" placeholder="Type your email" id="email">
+          <br>
+          <p id="mailError"></p>
+          <br>
           </div>
-          <br>
           <div class="login-cont">
-          <label> password  </label>
-          <br>
-          <input type="password" placeholder="Type your password">
-      </div>
-      <br>
-      <div >
-         <button id="login-button">Log In</button>
-      </div>
-      <br>
-      <div class="login-misc">
-          <h5>Need an Account</h5>
-          <a href="./signup.html">Sign Up</a>
-      </div>
-  </form>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password" id="pwd"><br>
+            <br>
+            </div>
+          
+          <div class="login-cont">
+            <input id="login-button" type="submit" value="Log In"><br>
+            <br>
+            </div>
+            <div class="login-misc">
+              <h5>Need an Account</h5>
+              <a href="#">Sign Up</a>
+              </div>
+              </form>
+              <centre>
+           <script src="./script.js"></script>
   <!-- </div> -->
     <!-- form ends here -->
     <!-- javascript poppers only -->
