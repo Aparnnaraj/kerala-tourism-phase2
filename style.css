@@ -37,6 +37,31 @@
   .form-signup-margin{
     margin: 20px;
   }
+
+
+
+
+
+
+  .passwordInput{
+    margin-top: 5%; 
+    text-align :center;
+}
+
+.displayBadge{
+    margin-top: 5%; 
+    display: none; 
+    text-align :center;
+}
+
+
+
+
+
+
+
+
+
   .background-img{
     margin: auto;
   }
@@ -111,3 +136,9 @@
   .background{
     margin: auto;
   }
+
+
+
+
+
+  
