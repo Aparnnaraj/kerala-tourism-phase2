@@ -5,7 +5,7 @@ function validate() {
    var mobilenum = document.getElementById("mobile")
     var regexp = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+)\.([a-z]{2,8})(.[a-z]{2,8})?$/
    var regexp2 =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/
-    var regexp3 =/^\(?([0-9]{3})\)?[-]([0-9]{3})[-]([0-9]{4})$/
+    var regexp3 =/^\(?([0-9]{3})\)?[-. ]([0-9]{3})[-. ]([0-9]{4})$/
 
 
 
